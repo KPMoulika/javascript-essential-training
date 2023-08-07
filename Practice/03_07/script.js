@@ -7,3 +7,13 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+const laptopBag = {
+  serialNumber: "Bag1",
+  mfgDate: new Date("2023", "12", "06"),
+  brandName: "MK",
+  laptopDetails: {
+    company: "Apple",
+    model: 'MB 14"',
+    memory: "14GB",
+  },
+};
