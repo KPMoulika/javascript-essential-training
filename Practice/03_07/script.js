@@ -16,4 +16,7 @@ const laptopBag = {
     model: 'MB 14"',
     memory: "14GB",
   },
+  changeMFDate: function (ele) {
+    this.mfgDate = ele;
+  },
 };
